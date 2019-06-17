@@ -7,4 +7,7 @@ public class BaseClass {
 		System.out.println("this is my base class");
 	}
 
+	public void add(int a, int b, int c) {
+		System.out.println(a + b + c);
+	}
 }
