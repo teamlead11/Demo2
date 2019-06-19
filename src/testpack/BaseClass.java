@@ -56,6 +56,7 @@ public class BaseClass {
 			System.out.println("Not Palindrome");
 		}
 	}
+	
 	public void rama() {
 		String name = "Arun";
 		String res = "";
