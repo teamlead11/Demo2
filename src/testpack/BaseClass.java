@@ -9,6 +9,7 @@ public class BaseClass {
 		base.add(6, 7);
 		base.Arun();
 		base.rama();
+		base.Praneetha();
 	}
 
 	public void add(int a, int b) {
@@ -54,6 +55,20 @@ public class BaseClass {
 			System.out.println("Not Palindrome");
 		}
 
+	}
+	public void Praneetha() {
+		String name = "Praneetha";
+		String res = "";
+		for (int i=name.length()-1;i>=0;i--) {
+			char ch=name.charAt(i);
+			res = res+ch;
+
+		}
+		if(res.equals(name)) {
+			System.out.println("Palindrome");
+		}else {
+			System.out.println("Not Palindrome");
+		}
 	}
 }
 
