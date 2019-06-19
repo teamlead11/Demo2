@@ -90,6 +90,25 @@ public class BaseClass {
 
 		System.out.println("Printed in branch **Rohini**");
 	}
+	public void palindromeByAbdul() {
+		String s="AbdulRavoof";
+		String res="";
+		int l = s.length();
+		
+		for(int i=(l-1);i>=0;i--) {
+			res=res+s.charAt(i);
+		}
+		System.out.println(res);
+		if(s.equals(res)) {
+			System.out.println("palindrome String");
+		}
+		else
+		{
+			System.out.println(s +" is not a palindrome String");
+		}
+
+		System.out.println("Printed in branch **Rohini**");
+	}
 }
 
 
