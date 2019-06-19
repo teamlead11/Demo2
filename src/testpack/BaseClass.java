@@ -41,7 +41,7 @@ public class BaseClass {
 		}
 	}
 	public void rama() {
-		String name = "Arun";
+		String name = "Rama";
 		String res = "";
 		for (int i=name.length()-1;i>=0;i--) {
 			char ch=name.charAt(i);
