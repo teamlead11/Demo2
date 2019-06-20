@@ -107,7 +107,20 @@ public class BaseClass {
 		{
 			System.out.println(s +" is not a palindrome String");
 		}
+	}
+	public void practice() {
+		String name = "practice";
+		String res = "";
+		for (int i=name.length()-1;i>=0;i--) {
+			char ch=name.charAt(i);
+			res = res+ch;
 
+		}
+		if(res.equals(name)) {
+			System.out.println("Palindrome");
+		}else {
+			System.out.println("Not Palindrome");
+		}
 	}
 }
 
