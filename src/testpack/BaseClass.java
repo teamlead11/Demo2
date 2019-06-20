@@ -10,6 +10,7 @@ public class BaseClass {
 		base.Arun();
 		base.rama();
 		base.palindromeByMady();
+		base.palindromeBySundar();
 	}
 
 	public void add(int a, int b) {
