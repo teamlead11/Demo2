@@ -10,6 +10,7 @@ public class BaseClass {
 		base.Arun();
 		base.rama();
 		base.palindromeByMady();
+		base.palindromeBySundar();
 	}
 
 	public void add(int a, int b) {
@@ -89,6 +90,24 @@ public class BaseClass {
 		}
 
 		System.out.println("Printed in branch **Rohini**");
+	}
+	public void palindromeBySundar() {
+		String s="SUNDAR";
+		String res="";
+		int l = s.length();
+		
+		for(int i=(l-1);i>=0;i--) {
+			res=res+s.charAt(i);
+		}
+		System.out.println(res);
+		if(s.equals(res)) {
+			System.out.println("palindrome String");
+		}
+		else
+		{
+			System.out.println(s +" is not a palindrome String");
+		}
+
 	}
 }
 
