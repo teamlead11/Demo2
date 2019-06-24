@@ -10,6 +10,7 @@ public class BaseClass {
 		base.Arun();
 		base.rama();
 		base.palindromeByMady();
+		base.add();
 	}
 
 	public void add(int a, int b) {
@@ -71,6 +72,13 @@ public class BaseClass {
 		{
 			System.out.println(s +" is not a palindrome String");
 		}
+	}
+	public void add() {
+		System.out.println("Concat all palindrome Strings");
+
+	}
+	public void Sub() {
+		System.out.println("Substract Non palindrome Strings");
 
 	}
 }
