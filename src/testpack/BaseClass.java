@@ -11,6 +11,7 @@ public class BaseClass {
 		base.rama();
 		base.palindromeByMady();
 		base.palindromeBySundar();
+		
 	}
 
 	public void add(int a, int b) {
@@ -60,7 +61,7 @@ public class BaseClass {
 	}
 	
 	public void rama() {
-		String name = "Arun";
+		String name = "rama";
 		String res = "";
 		for (int i=name.length()-1;i>=0;i--) {
 			char ch=name.charAt(i);
@@ -129,6 +130,10 @@ public class BaseClass {
 
 	}
 	
+	private void add() {
+		System.out.println("concat polindrome strings");
+
+	}
 	
 }
 
