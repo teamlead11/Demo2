@@ -14,7 +14,8 @@ public class BaseClass {
 	}
 
 	public void add(int a, int b) {
-		System.out.println(a / b);
+		System.out.println(a - b);
+		System.out.println("Added");
 	}
 
 	public void multi(int a, int b) {
