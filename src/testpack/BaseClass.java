@@ -10,11 +10,14 @@ public class BaseClass {
 		base.Arun();
 		base.rama();
 		base.palindromeByMady();
+		base.palindromeBySundar();
 		base.add();
+		
 	}
 
 	public void add(int a, int b) {
-		System.out.println(a + b);
+		System.out.println(a - b);
+		System.out.println("Added");
 	}
 
 	public void multi(int a, int b) {
@@ -42,8 +45,24 @@ public class BaseClass {
 			System.out.println("Not Palindrome");
 		}
 	}
+	
+	public void Rohini() {
+		String name = "Rohini";
+		String res = "";
+		for (int i=name.length()-1;i>=0;i--) {
+			char ch=name.charAt(i);
+			res = res+ch;
+
+		}
+		if(res.equals(name)) {
+			System.out.println("Palindrome");
+		}else {
+			System.out.println("Not Palindrome");
+		}
+	}
+	
 	public void rama() {
-		String name = "Arun";
+		String name = "rama";
 		String res = "";
 		for (int i=name.length()-1;i>=0;i--) {
 			char ch=name.charAt(i);
@@ -72,15 +91,51 @@ public class BaseClass {
 		{
 			System.out.println(s +" is not a palindrome String");
 		}
+
+		System.out.println("Printed in branch **Rohini**");
 	}
-	public void add() {
-		System.out.println("Concat all palindrome Strings");
+	public void palindromeBySundar() {
+		String s="SUNDAR";
+		String res="";
+		int l = s.length();
+		
+		for(int i=(l-1);i>=0;i--) {
+			res=res+s.charAt(i);
+		}
+		System.out.println(res);
+		if(s.equals(res)) {
+			System.out.println("palindrome String");
+		}
+		else
+		{
+			System.out.println(s +" is not a palindrome String");
+		}
 
 	}
-	public void Sub() {
-		System.out.println("Substract Non palindrome Strings");
+	private void nandPali() {
+		String s="HARI";
+		String res="";
+		int l = s.length();
+		
+		for(int i=(l-1);i>=0;i--) {
+			res=res+s.charAt(i);
+		}
+		System.out.println(res);
+		if(s.equals(res)) {
+			System.out.println("palindrome String");
+		}
+		else
+		{
+			System.out.println(s +" is not a palindrome String");
+		}
 
 	}
+	
+	private void add() {
+		System.out.println("concat polindrome strings");
+
+	}
+	
 }
 
 
