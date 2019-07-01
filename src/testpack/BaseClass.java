@@ -11,6 +11,7 @@ public class BaseClass {
 		base.rama();
 		base.palindromeByMady();
 		base.palindromeBySundar();
+		base.add();
 		
 	}
 
